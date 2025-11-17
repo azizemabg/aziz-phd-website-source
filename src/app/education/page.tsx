@@ -157,7 +157,7 @@ export default function EducationPage() {
 
 export function generateMetadata() {
   return {
-    title: 'Education Background - Azize M. Abg',
+    title: 'Education Background - Muhammad Aziz Muslim',
     description: 'Advanced academic training in plant and animal breeding sciences with degrees in integrated breeding and animal genetics',
     keywords: 'education, academic background, plant breeding, animal genetics, integrated breeding, masters degree',
   };
