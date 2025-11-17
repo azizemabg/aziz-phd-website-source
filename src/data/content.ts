@@ -23,7 +23,7 @@ export const dynamicContent: ContentItem[] = [
     content: 'Developed novel approaches for combining plant and animal breeding strategies to enhance climate resilience in agricultural systems. Research focused on genomic selection methodologies and adaptive trait management.',
     image: '/research/climate-resilience.jpg',
     date: '2023',
-    author: 'Azize M. Abg',
+    author: 'Muhammad Aziz Muslim',
     featured: true
   },
   {
@@ -35,7 +35,7 @@ export const dynamicContent: ContentItem[] = [
     content: 'Contributed to large-scale genetic analysis projects evaluating heritability and genetic correlations in key production traits. Applied advanced statistical models for breeding value estimation.',
     image: '/research/quantitative-genetics.jpg',
     date: '2022',
-    author: 'Azize M. Abg'
+    author: 'Muhammad Aziz Muslim'
   },
   {
     id: 'molecular-marker-development',
