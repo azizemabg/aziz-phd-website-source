@@ -11,7 +11,7 @@ import { getContentByCategory, getFeaturedContent } from '@/data/content';
 export default function Home() {
   const [activeSection, setActiveSection] = useState('hero');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [profileImage, setProfileImage] = useState('/PUTIHCROP.jpg.jpg');
+  const [profileImage, setProfileImage] = useState('/PUTIHCROP.jpg');
   const [headerBackground, setHeaderBackground] = useState('/background.jpg');
   const fileInputRef = useRef<HTMLInputElement>(null);
   const bgInputRef = useRef<HTMLInputElement>(null);
@@ -190,13 +190,13 @@ export default function Home() {
               </div>
               
               <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-                Azize M. Abg
+                Muhammad Aziz Muslim 
               </h1>
               <p className="text-xl md:text-2xl mb-2 drop-shadow-md">
-                Master of Integrated Plant and Animal Breeding
+                MSc in Integrated Plant and Animal Breeding (Uni Goettingen)
               </p>
               <p className="text-lg md:text-xl mb-6 drop-shadow-md">
-                Master of Animal Breeding and Genetics
+                MSc in Animal Breeding and Genetics (BOKU)
               </p>
               <div className="flex flex-wrap justify-center gap-2 mb-8">
                 <Badge variant="secondary" className="px-3 py-1 bg-white/20 text-white border-white/30">Plant Breeding</Badge>
