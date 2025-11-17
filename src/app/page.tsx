@@ -11,7 +11,7 @@ import { getContentByCategory, getFeaturedContent } from '@/data/content';
 export default function Home() {
   const [activeSection, setActiveSection] = useState('hero');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [profileImage, setProfileImage] = useState('/profile.jpg');
+  const [profileImage, setProfileImage] = useState('/PUTIHCROP.jpg.jpg');
   const [headerBackground, setHeaderBackground] = useState('/background.jpg');
   const fileInputRef = useRef<HTMLInputElement>(null);
   const bgInputRef = useRef<HTMLInputElement>(null);
